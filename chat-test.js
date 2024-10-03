@@ -14,7 +14,7 @@ window.addEventListener('onEventReceived', function (obj) {
     let detail2;
 
     switch (type) {
-      case "broadcasterMessage":
+      case "streamerMessage":
         detail = {
           listener: 'message',
           event: {
