@@ -352,7 +352,7 @@ window.addEventListener('onEventReceived', function (obj) {
               time: 1704067200,
               tags: {
                 'badge-info': 'subscriber/14', // Months subscribed
-                badges: 'broadcaster/1,subscriber/1', // Tier 1 subscriber
+                badges: 'subscriber/1', // Tier 1 subscriber
                 color: '#4400FFFF',
                 'display-name': userChannel,
                 emotes: '',
@@ -405,7 +405,7 @@ window.addEventListener('onEventReceived', function (obj) {
               time: 1704067200,
               tags: {
                 'badge-info': 'subscriber/14', // Months subscribed
-                badges: 'broadcaster/1,subscriber/2', // Tier 2 subscriber
+                badges: 'subscriber/2', // Tier 2 subscriber
                 color: '#4400FFFF',
                 'display-name': userChannel,
                 emotes: '',
@@ -458,7 +458,7 @@ window.addEventListener('onEventReceived', function (obj) {
               time: 1704067200,
               tags: {
                 'badge-info': 'subscriber/14', // Months subscribed
-                badges: 'broadcaster/1,subscriber/3', // Tier 3 subscriber
+                badges: 'subscriber/3', // Tier 3 subscriber
                 color: '#4400FFFF',
                 'display-name': userChannel,
                 emotes: '',
