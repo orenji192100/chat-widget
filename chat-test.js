@@ -343,6 +343,165 @@ window.addEventListener('onEventReceived', function (obj) {
           },
         };
         break;
+      case "subscriberMessageTier1":
+        detail = {
+          listener: 'message',
+          event: {
+            service: 'twitch',
+            data: {
+              time: 1704067200,
+              tags: {
+                'badge-info': 'subscriber/14', // Months subscribed
+                badges: 'broadcaster/1,subscriber/1', // Tier 1 subscriber
+                color: '#4400FFFF',
+                'display-name': userChannel,
+                emotes: '',
+                'first-msg': '0',
+                flags: '',
+                id: '54b903a4-1130-4c46-820b-f589b7102c4b',
+                mod: '0',
+                'returning-chatter': '0',
+                'room-id': roomId,
+                subscriber: '1', // Subscriber flag
+                'tmi-sent-ts': '5683921687254',
+                turbo: '0',
+                'user-id': '342546591',
+                'user-type': '',
+              },
+              nick: userChannel,
+              userId: '342546591',
+              displayName: userChannel,
+              displayColor: '#4400FFFF',
+              badges: [
+                {
+                  type: 'broadcaster',
+                  version: '1',
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3',
+                  description: 'Broadcaster',
+                },
+                {
+                  type: 'subscriber',
+                  version: '1', // Tier 1
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3',
+                  description: 'Subscriber',
+                },
+              ],
+              channel: userChannel,
+              text: 'The streamer sent a message as a Tier 1 subscriber!',
+              isAction: false,
+              emotes: [],
+              msgId: '39cf1c85-ca8d-4fe5-899b-ecb5d57d0426',
+            },
+            renderedText: 'The streamer sent a message as a Tier 1 subscriber!',
+          },
+        };
+        break;
+      case "subscriberMessageTier2":
+        detail = {
+          listener: 'message',
+          event: {
+            service: 'twitch',
+            data: {
+              time: 1704067200,
+              tags: {
+                'badge-info': 'subscriber/14', // Months subscribed
+                badges: 'broadcaster/1,subscriber/2', // Tier 2 subscriber
+                color: '#4400FFFF',
+                'display-name': userChannel,
+                emotes: '',
+                'first-msg': '0',
+                flags: '',
+                id: '54b903a4-1130-4c46-820b-f589b7102c4b',
+                mod: '0',
+                'returning-chatter': '0',
+                'room-id': roomId,
+                subscriber: '1', // Subscriber flag
+                'tmi-sent-ts': '5683921687254',
+                turbo: '0',
+                'user-id': '342546591',
+                'user-type': '',
+              },
+              nick: userChannel,
+              userId: '342546591',
+              displayName: userChannel,
+              displayColor: '#4400FFFF',
+              badges: [
+                {
+                  type: 'broadcaster',
+                  version: '1',
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3',
+                  description: 'Broadcaster',
+                },
+                {
+                  type: 'subscriber',
+                  version: '2', // Tier 2
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3',
+                  description: 'Subscriber',
+                },
+              ],
+              channel: userChannel,
+              text: 'The streamer sent a message as a Tier 2 subscriber!',
+              isAction: false,
+              emotes: [],
+              msgId: '39cf1c85-ca8d-4fe5-899b-ecb5d57d0426',
+            },
+            renderedText: 'The streamer sent a message as a Tier 2 subscriber!',
+          },
+        };
+        break;
+      case "subscriberMessageTier3":
+        detail = {
+          listener: 'message',
+          event: {
+            service: 'twitch',
+            data: {
+              time: 1704067200,
+              tags: {
+                'badge-info': 'subscriber/14', // Months subscribed
+                badges: 'broadcaster/1,subscriber/3', // Tier 3 subscriber
+                color: '#4400FFFF',
+                'display-name': userChannel,
+                emotes: '',
+                'first-msg': '0',
+                flags: '',
+                id: '54b903a4-1130-4c46-820b-f589b7102c4b',
+                mod: '0',
+                'returning-chatter': '0',
+                'room-id': roomId,
+                subscriber: '1', // Subscriber flag
+                'tmi-sent-ts': '5683921687254',
+                turbo: '0',
+                'user-id': '342546591',
+                'user-type': '',
+              },
+              nick: userChannel,
+              userId: '342546591',
+              displayName: userChannel,
+              displayColor: '#4400FFFF',
+              badges: [
+                {
+                  type: 'broadcaster',
+                  version: '1',
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/3',
+                  description: 'Broadcaster',
+                },
+                {
+                  type: 'subscriber',
+                  version: '3', // Tier 3
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3',
+                  description: 'Subscriber',
+                },
+              ],
+              channel: userChannel,
+              text: 'The streamer sent a message as a Tier 3 subscriber!',
+              isAction: false,
+              emotes: [],
+              msgId: '39cf1c85-ca8d-4fe5-899b-ecb5d57d0426',
+            },
+            renderedText: 'The streamer sent a message as a Tier 3 subscriber!',
+          },
+        };
+        break;
       case "replyMessage":
         detail = {
           listener: 'message',
