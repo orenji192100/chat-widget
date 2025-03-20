@@ -393,7 +393,7 @@ window.addEventListener('onEventReceived', function (obj) {
                   urls: {
                     '1': 'https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp',
                     '2': 'https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp',
-                    '4': 'https://cdn.7tv.app/emote/01FCX95ZG80009QXBMY7YYTVBJ/1x.webp',
+                    '4': 'https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp',
                   },
                   positions: [[0, 8], [10, 18], [20, 28]]
                 },
