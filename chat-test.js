@@ -343,7 +343,7 @@ window.addEventListener('onEventReceived', function (obj) {
           },
         };
         break;
-      case "emoteOnlyMessage":
+      case "wideEmoteOnlyMessage":
         detail = {
           listener: 'message',
           event: {
