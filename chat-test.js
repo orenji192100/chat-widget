@@ -403,7 +403,7 @@ window.addEventListener('onEventReceived', function (obj) {
             renderedText:
               '<img src="https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp" srcset="https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp 1x, https://cdn.frankerfacez.com/emoticon/407882/2 2x, https://cdn.frankerfacez.com/emoticon/407882/4 4x" title="CupBunny" class="emote"> ' +
               '<img src="https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp" srcset="https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp 1x, https://cdn.frankerfacez.com/emoticon/407882/2 2x, https://cdn.frankerfacez.com/emoticon/407882/4 4x" title="CupBunny" class="emote"> ' +
-              '<img src="https://cdn.7tv.app/emote/01FCX95ZG80009QXBMY7YYTVBJ/1x.webp" srcset="https://cdn.7tv.app/emote/01FCX95ZG80009QXBMY7YYTVBJ/1x.webp 1x, https://cdn.7tv.app/emote/01FCX95ZG80009QXBMY7YYTVBJ/1x.webp 2x, https://cdn.7tv.app/emote/01FCX95ZG80009QXBMY7YYTVBJ/1x.webp 4x" title="CupBunny" class="emote">',
+              '<img src="https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp" srcset="https://cdn.7tv.app/emote/01GWDGXVG0000FVNNHM4H1HZRF/1x.webp 1x, https://cdn.frankerfacez.com/emoticon/407882/2 2x, https://cdn.frankerfacez.com/emoticon/407882/4 4x" title="CupBunny" class="emote"> '
           },
         };
         break;
