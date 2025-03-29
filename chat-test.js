@@ -307,7 +307,7 @@ window.addEventListener('onEventReceived', function (obj) {
               },
               nick: "emote only",
               userId: '886981399',
-              displayName: "Emote Only",
+              displayName: "EmoteOnly",
               displayColor: '#FF69B4',
               badges: [
                 {
