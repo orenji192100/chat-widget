@@ -7,6 +7,9 @@ window.addEventListener('onWidgetLoad', function (obj) {
 })
 
 window.addEventListener('onEventReceived', function (obj) {
+
+  console.log("OBJ ORENJI", obj);
+
   if (obj.detail.event.listener === 'widget-button') {
     const type = obj.detail.event.field;
 
@@ -800,7 +803,7 @@ window.addEventListener('onEventReceived', function (obj) {
           "perm": "default"
         }
         break;
-      case "moderatorMessageYt":
+      case "subscriberMessageYt":
         detail = {
           "kind": "youtube#liveChatMessage",
           "etag": "FFyVMBdCnaFyluxPZjqEqsPq7wg",
