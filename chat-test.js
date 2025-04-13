@@ -873,6 +873,8 @@ window.addEventListener('onEventReceived', function (obj) {
       detail: detail
     });
 
+    console.log("ORENJI EMULATED", emulated);
+
     window.dispatchEvent(emulated);
 
     return;
