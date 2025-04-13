@@ -10,7 +10,7 @@ window.addEventListener('onEventReceived', function (obj) {
 
   console.log("OBJ ORENJI", obj);
 
-  if (obj.detail.event.listener === 'widget-button') {
+  if (obj.detail.listener === 'widget-button') {
     const type = obj.detail.event.field;
 
     let detail;
