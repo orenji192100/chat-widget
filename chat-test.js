@@ -820,6 +820,7 @@ window.addEventListener('onEventReceived', function (obj) {
         }
         break;
       case "subscriberMessageYt":
+        console.log("ORENJI EVENT TYPE RECEIVED");
         detail = {
           listener: 'message',
           event: {
