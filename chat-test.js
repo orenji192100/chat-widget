@@ -8,7 +8,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
 
 window.addEventListener('onEventReceived', function (obj) {
 
-  if (obj.detail.listener === 'widget-button') {
+  if (obj.detail.event.listener === 'widget-button') {
     const type = obj.detail.event.field;
 
     let detail;
