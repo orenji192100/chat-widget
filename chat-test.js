@@ -14,8 +14,6 @@ window.addEventListener('onEventReceived', function (obj) {
     let detail;
     let detail2;
 
-    console.log("ORENJI TYPE", type);
-
     switch (type) {
       case "streamerMessage":
         detail = {
