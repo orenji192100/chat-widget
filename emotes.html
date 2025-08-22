@@ -15876,13 +15876,9 @@
   var emotes = {};
 
   $("img").each(function () {
-    var id = $(this).attr("id");
     var label = $(this).attr("aria-label");
     var src = $(this).attr("src");
 
-    emotes[id] = {
-      label: label,
-      src: src,
-    };
+    emotes[label] = src
   });
 </script>
