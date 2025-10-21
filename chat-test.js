@@ -193,6 +193,53 @@ window.addEventListener('onEventReceived', function (obj) {
           },
         };
         break;
+      case "artistMessage":
+        detail = {
+          listener: 'message',
+          event: {
+            service: 'twitch',
+            data: {
+              time: 1893572641,
+              tags: {
+                'badge-info': '',
+                badges: 'artist-badge/1',
+                color: '#9146FFFF',
+                'display-name': 'Artist',
+                emotes: '',
+                'first-msg': '0',
+                flags: '',
+                id: 'f9b7e432-8a1c-4d3f-9e2b-a58c9f71b3d4',
+                mod: '0',
+                'returning-chatter': '0',
+                'room-id': roomId,
+                subscriber: '0',
+                'tmi-sent-ts': '7562841937521',
+                turbo: '0',
+                'user-id': '745938261',
+                'user-type': '',
+              },
+              nick: 'artist',
+              userId: '745938261',
+              displayName: 'Artist',
+              displayColor: '#9146FFFF',
+              badges: [
+                {
+                  type: 'artist-badge',
+                  version: '1',
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/4300a897-03dc-4e83-8c0e-c332fee7057f/3',
+                  description: 'Artist',
+                },
+              ],
+              channel: userChannel,
+              text: 'Artist Send a Message!',
+              isAction: false,
+              emotes: [],
+              msgId: 'f9b7e432-8a1c-4d3f-9e2b-a58c9f71b3d4',
+            },
+            renderedText: 'Artist Send a Message!',
+          },
+        };
+        break;
       case "subscriberMessage":
         detail = {
           listener: 'message',
