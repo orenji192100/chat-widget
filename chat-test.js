@@ -287,6 +287,53 @@ window.addEventListener('onEventReceived', function (obj) {
           },
         };
         break;
+      case "founderMessage":
+        detail = {
+          listener: 'message',
+          event: {
+            service: 'twitch',
+            data: {
+              time: 2166795590,
+              tags: {
+                'badge-info': 'founder/45',
+                badges: ' founder/0',
+                color: '#00FBFFFF',
+                'display-name': 'Founder',
+                emotes: '',
+                'first-msg': '0',
+                flags: '',
+                id: '22c694d7-53fd-4d9f-bde4-dfa9507cda30',
+                mod: '0',
+                'returning-chatter': '0',
+                'room-id': roomId,
+                subscriber: '1',
+                'tmi-sent-ts': '8268724918673',
+                turbo: '0',
+                'user-id': '211928254',
+                'user-type': '',
+              },
+              nick: 'founder',
+              userId: '211928254',
+              displayName: 'Founder',
+              displayColor: '#00FBFFFF',
+              badges: [
+                {
+                  type: 'founder',
+                  version: '0',
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3',
+                  description: 'Founder',
+                },
+              ],
+              channel: userChannel,
+              text: 'Founder Send a Message!',
+              isAction: false,
+              emotes: [],
+              msgId: '22c694d7-53fd-4d9f-bde4-dfa9507cda30',
+            },
+            renderedText: 'Founder Send a Message!',
+          },
+        };
+        break;
       case "regularMessage":
         detail = {
           listener: 'message',
