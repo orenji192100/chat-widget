@@ -428,6 +428,30 @@ window.addEventListener('onEventReceived', function (obj) {
                   },
                   positions: [[0, 8], [10, 18], [20, 28]]
                 },
+                {
+                  type: 'ffz',
+                  name: 'CupBunny',
+                  id: '407882',
+                  gif: false,
+                  urls: {
+                    '1': 'https://cdn.frankerfacez.com/emoticon/407882/1',
+                    '2': 'https://cdn.frankerfacez.com/emoticon/407882/2',
+                    '4': 'https://cdn.frankerfacez.com/emoticon/407882/4',
+                  },
+                  positions: [[0, 8], [10, 18], [20, 28]]
+                },
+                {
+                  type: 'ffz',
+                  name: 'CupBunny',
+                  id: '407882',
+                  gif: false,
+                  urls: {
+                    '1': 'https://cdn.frankerfacez.com/emoticon/407882/1',
+                    '2': 'https://cdn.frankerfacez.com/emoticon/407882/2',
+                    '4': 'https://cdn.frankerfacez.com/emoticon/407882/4',
+                  },
+                  positions: [[0, 8], [10, 18], [20, 28]]
+                },
               ],
               msgId: 'a227f479-4a3d-4c2b-9e12-91657d191ece',
             },
