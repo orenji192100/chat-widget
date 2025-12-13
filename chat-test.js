@@ -438,6 +438,68 @@ window.addEventListener('onEventReceived', function (obj) {
           },
         };
         break;
+      case "singleEmoteOnlyMessage":
+        detail = {
+          listener: 'message',
+          event: {
+            service: 'twitch',
+            data: {
+              time: 8257361965,
+              tags: {
+                'badge-info': 'subscriber/14',
+                badges: 'broadcaster/1,subscriber/0',
+                color: '#FF69B4',
+                'display-name': userChannel,
+                'emote-only': '1',
+                emotes: '407882:0-8,10-18,20-28',
+                'first-msg': '0',
+                flags: '',
+                id: 'a227f479-4a3d-4c2b-9e12-91657d191ece',
+                mod: '0',
+                'returning-chatter': '0',
+                'room-id': roomId,
+                subscriber: '1',
+                'tmi-sent-ts': '8287918670284',
+                turbo: '0',
+                'user-id': '886981399',
+                'user-type': '',
+              },
+              nick: "single emote only",
+              userId: '886981399',
+              displayName: "SingleEmoteOnly",
+              displayColor: '#FF69B4',
+              badges: [
+                {
+                  type: 'subscriber',
+                  version: '0',
+                  url: 'https://static-cdn.jtvnw.net/badges/v1/5d9f2208-5dd8-11e7-8513-2ff4adfae661/3',
+                  description: 'Subscriber',
+                },
+              ],
+              channel: userChannel,
+              text: 'CupBunny',
+              isAction: false,
+              emotes: [
+                {
+                  type: 'ffz',
+                  name: 'CupBunny',
+                  id: '407882',
+                  gif: false,
+                  urls: {
+                    '1': 'https://cdn.frankerfacez.com/emoticon/407882/1',
+                    '2': 'https://cdn.frankerfacez.com/emoticon/407882/2',
+                    '4': 'https://cdn.frankerfacez.com/emoticon/407882/4',
+                  },
+                  positions: [[0, 8]]
+                },
+              ],
+              msgId: 'a227f479-4a3d-4c2b-9e12-91657d191ece',
+            },
+            renderedText:
+              '<img src="https://cdn.frankerfacez.com/emoticon/407882/1" srcset="https://cdn.frankerfacez.com/emoticon/407882/1 1x, https://cdn.frankerfacez.com/emoticon/407882/2 2x, https://cdn.frankerfacez.com/emoticon/407882/4 4x" title="CupBunny" class="emote">'
+          },
+        };
+      break;
       case "wideEmoteOnlyMessage":
         detail = {
           listener: 'message',
