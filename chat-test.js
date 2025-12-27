@@ -1088,7 +1088,7 @@ window.addEventListener('onEventReceived', function (obj) {
               "tags": [],
               "displayColor": null,
               "channel": "UClLOvnO5smHsjyvBf0pup3A",
-              "text": ":_愛心紗::_生氣紗:",
+              "text": ":_愛心紗::_生氣紗::_安妮紗::_啊哈紗::_呃呵紗::_sasweat::_sadeadge::_wooo::_上香囉::_打call::_醒醒吧::_有點危:':",
               "emotes": [],
               "avatar": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
               "perm": "default"
