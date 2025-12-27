@@ -523,7 +523,7 @@ window.addEventListener('onEventReceived', function (obj) {
               '<img src="https://cdn.frankerfacez.com/emoticon/407882/1" srcset="https://cdn.frankerfacez.com/emoticon/407882/1 1x, https://cdn.frankerfacez.com/emoticon/407882/2 2x, https://cdn.frankerfacez.com/emoticon/407882/4 4x" title="CupBunny" class="emote">'
           },
         };
-      break;
+        break;
       case "wideEmoteOnlyMessage":
         detail = {
           listener: 'message',
@@ -1041,6 +1041,54 @@ window.addEventListener('onEventReceived', function (obj) {
               "displayColor": null,
               "channel": "UClLOvnO5smHsjyvBf0pup3A",
               "text": "Subscriber Testing Message",
+              "emotes": [],
+              "avatar": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
+              "perm": "default"
+            }
+          }
+        }
+        break;
+      case "shimizuCustomEmote":
+        detail = {
+          listener: 'message',
+          event: {
+            service: "youtube",
+            data: {
+              "kind": "youtube#liveChatMessage",
+              "etag": "FFyVMBdCnaFyluxPZjqEqsPq7wg",
+              "id": "LCC.EhwKGkNMTHRfczIzMUl3REZYSEx3Z1FkcUJVaERB",
+              "snippet": {
+                "type": "textMessageEvent",
+                "liveChatId": "KicKGFVDbExPdm5PNXNtSHNqeXZCZjBwdXAzQRILMEtIaUhXWURHcm8",
+                "authorChannelId": "UClLOvnO5smHsjyvBf0pup3A",
+                "publishedAt": "2025-04-13T06:59:23.930585+00:00",
+                "hasDisplayContent": true,
+                "displayMessage": ":_愛心紗::_生氣紗:",
+                "textMessageDetails": {
+                  "messageText": ":_愛心紗::_生氣紗:"
+                }
+              },
+              "authorDetails": {
+                "channelId": "UClLOvnO5smHsjyvBf0pup3A",
+                "channelUrl": "http://www.youtube.com/channel/UClLOvnO5smHsjyvBf0pup3A",
+                "displayName": "ChatWidget Testing",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false
+              },
+              "msgId": "LCCEhwKGkNMTHRfczIzMUl3REZYSEx3Z1FkcUJVaERB",
+              "userId": "UClLOvnO5smHsjyvBf0pup3A",
+              "nick": "Subscriber",
+              "badges": [],
+              "displayName": "Subscriber",
+              "isAction": false,
+              "time": 1744527570705,
+              "tags": [],
+              "displayColor": null,
+              "channel": "UClLOvnO5smHsjyvBf0pup3A",
+              "text": ":_愛心紗::_生氣紗:",
               "emotes": [],
               "avatar": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
               "perm": "default"
