@@ -13,7 +13,7 @@ window.addEventListener('onEventReceived', function (obj) {
 
     let detail;
     let detail2;
-    
+
 
     switch (type) {
       case "streamerMessage":
@@ -1137,7 +1137,7 @@ window.addEventListener('onEventReceived', function (obj) {
               "tags": [],
               "displayColor": null,
               "channel": "UClLOvnO5smHsjyvBf0pup3A",
-              "text": ":_sekiShiny::_sekiSparkle::_sekiSip::_sekiCry::_sekiLaugh:_sekiAyo::_sekiFlail::_sekiGlowie::_sekiFlip::_sekiNerd::_sekiBan::_sekiOshi::_sekiHeartbreak::_sekiLoad::_sekiMeshing::_sekiOho::_sekiSleep::_sekiWave",
+              "text": ":_sekiSparkle:",
               "emotes": [],
               "avatar": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
               "perm": "default"
