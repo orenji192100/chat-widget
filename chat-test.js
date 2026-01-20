@@ -1096,6 +1096,54 @@ window.addEventListener('onEventReceived', function (obj) {
           }
         }
         break;
+      case "sekigemaCustomEmote":
+        detail = {
+          listener: 'message',
+          event: {
+            service: "youtube",
+            data: {
+              "kind": "youtube#liveChatMessage",
+              "etag": "FFyVMBdCnaFyluxPZjqEqsPq7wg",
+              "id": "LCC.EhwKGkNMTHRfczIzMUl3REZYSEx3Z1FkcUJVaERB",
+              "snippet": {
+                "type": "textMessageEvent",
+                "liveChatId": "KicKGFVDbExPdm5PNXNtSHNqeXZCZjBwdXAzQRILMEtIaUhXWURHcm8",
+                "authorChannelId": "UClLOvnO5smHsjyvBf0pup3A",
+                "publishedAt": "2025-04-13T06:59:23.930585+00:00",
+                "hasDisplayContent": true,
+                "displayMessage": ":_愛心紗::_生氣紗:",
+                "textMessageDetails": {
+                  "messageText": ":_愛心紗::_生氣紗:"
+                }
+              },
+              "authorDetails": {
+                "channelId": "UClLOvnO5smHsjyvBf0pup3A",
+                "channelUrl": "http://www.youtube.com/channel/UClLOvnO5smHsjyvBf0pup3A",
+                "displayName": "ChatWidget Testing",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
+                "isVerified": false,
+                "isChatOwner": false,
+                "isChatSponsor": true,
+                "isChatModerator": false
+              },
+              "msgId": "LCCEhwKGkNMTHRfczIzMUl3REZYSEx3Z1FkcUJVaERB",
+              "userId": "UClLOvnO5smHsjyvBf0pup3A",
+              "nick": "Subscriber",
+              "badges": [],
+              "displayName": "Subscriber",
+              "isAction": false,
+              "time": 1744527570705,
+              "tags": [],
+              "displayColor": null,
+              "channel": "UClLOvnO5smHsjyvBf0pup3A",
+              "text": ":_sekiDeadinside",
+              "emotes": [],
+              "avatar": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj:_sekiShiny:_sekiSparkle:_sekiSip::_sekiCry:_sekiLaugh:_sekiAyo:_sekiFlail:_sekiGlowie:_sekiFlip:_sekiNerd:_sekiBan:_sekiOshi::_sekiHeartbreak:_sekiLoad:_sekiMeshing:_sekiOho:_sekiSleep:_sekiWave",
+              "perm": "default"
+            }
+          }
+        }
+        break;
     }
 
     let emulated = new CustomEvent('onEventReceived', {
