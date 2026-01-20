@@ -41,9 +41,9 @@ window.addEventListener('onEventReceived', function (obj) {
                 'user-id': '342546591',
                 'user-type': '',
               },
-              nick: "almosthirteen",
+              nick: userChannel,
               userId: '342546591',
-              displayName: "almosthirteen",
+              displayName: userChannel,
               displayColor: '#4400FFFF',
               badges: [
                 {
@@ -59,7 +59,7 @@ window.addEventListener('onEventReceived', function (obj) {
                   description: 'Subscriber',
                 },
               ],
-              channel: "almosthirteen",
+              channel: userChannel,
               text: 'The streamer send a message!',
               isAction: false,
               emotes: [],
@@ -821,9 +821,9 @@ window.addEventListener('onEventReceived', function (obj) {
                 'user-id': '370315518',
                 'user-type': '',
               },
-              nick: userChannel,
+              nick: "almosthirteen",
               userId: '370315518',
-              displayName: userChannel,
+              displayName: "almosthirteen",
               displayColor: '#00FF99FF',
               badges: [
                 {
@@ -833,7 +833,7 @@ window.addEventListener('onEventReceived', function (obj) {
                   description: 'Subscriber',
                 },
               ],
-              channel: userChannel,
+              channel: "almosthirteen",
               text: "@almosthirteen From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!",
               isAction: false,
               emotes: [],
