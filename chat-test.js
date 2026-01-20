@@ -13,6 +13,7 @@ window.addEventListener('onEventReceived', function (obj) {
 
     let detail;
     let detail2;
+    
 
     switch (type) {
       case "streamerMessage":
