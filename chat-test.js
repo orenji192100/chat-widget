@@ -252,7 +252,7 @@ window.addEventListener('onEventReceived', function (obj) {
                 'badge-info': 'subscriber/14',
                 badges: ' subscriber/0',
                 color: '#00FBFFFF',
-                'display-name': 'NewSubs',
+                'display-name': 'Subscriber',
                 emotes: '',
                 'first-msg': '0',
                 flags: '',
@@ -266,9 +266,9 @@ window.addEventListener('onEventReceived', function (obj) {
                 'user-id': '211928254',
                 'user-type': '',
               },
-              nick: 'newsubs',
+              nick: 'Subscriber',
               userId: '211928254',
-              displayName: 'NewSubs',
+              displayName: 'Subscriber',
               displayColor: '#00FBFFFF',
               badges: [
                 {
@@ -759,7 +759,7 @@ window.addEventListener('onEventReceived', function (obj) {
                 'badge-info': '',
                 badges: '',
                 color: '#FF8400FF',
-                'display-name': 'ORENJI',
+                'display-name': 'almosthirteen',
                 emotes: '',
                 'first-msg': '0',
                 flags: '',
@@ -773,18 +773,18 @@ window.addEventListener('onEventReceived', function (obj) {
                 'user-id': '896800563',
                 'user-type': '',
               },
-              nick: 'orenji',
+              nick: 'almosthirteen',
               userId: '896800563',
-              displayName: 'ORENJI',
+              displayName: 'almosthirteen',
               displayColor: '#FF8400FF',
               badges: [],
-              channel: 'ORENJI',
-              text: 'Send me your favorite quote!',
+              channel: 'almosthirteen',
+              text: 'Here’s an example of a long message.',
               isAction: false,
               emotes: [],
               msgId: '7701b38b-5821-448a-863b-c4bb048cfae7',
             },
-            renderedText: 'Send me your favorite quote!',
+            renderedText: 'Here’s an example of a long message.',
           },
         };
         detail2 = {
@@ -797,22 +797,22 @@ window.addEventListener('onEventReceived', function (obj) {
                 'badge-info': 'subscriber/14',
                 badges: 'broadcaster/1,subscriber/0',
                 color: '#00FF99FF',
-                'display-name': 'ORENJI',
+                'display-name': 'almosthirteen',
                 emotes: '',
                 'first-msg': '0',
                 flags: '',
                 id: '1dee195b-5023-4883-99ea-45759e7549e8',
                 mod: '0',
-                'reply-parent-display-name': 'ORENJI',
+                'reply-parent-display-name': 'almosthirteen',
                 'reply-parent-msg-body':
                   'May\\sI\\shave\\sa\\srandom\\scool\\sfact?',
                 'reply-parent-msg-id':
                   '177329b8-ca97-4b2b-b3cd-7e7fa2ee6a4b',
                 'reply-parent-user-id': '947868099',
-                'reply-parent-user-login': 'ORENJI',
+                'reply-parent-user-login': 'almosthirteen',
                 'reply-thread-parent-msg-id':
                   '177329b8-ca97-4b2b-b3cd-7e7fa2ee6a4b',
-                'reply-thread-parent-user-login': 'ORENJI',
+                'reply-thread-parent-user-login': 'almosthirteen',
                 'returning-chatter': '0',
                 'room-id': roomId,
                 subscriber: '1',
@@ -834,13 +834,13 @@ window.addEventListener('onEventReceived', function (obj) {
                 },
               ],
               channel: userChannel,
-              text: "@ORENJI The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.",
+              text: "@almosthirteen From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!",
               isAction: false,
               emotes: [],
               msgId: '1dee195b-5023-4883-99ea-45759e7549e8',
             },
             renderedText:
-              "@ORENJI The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.",
+              "@almosthirteen From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!",
           },
         };
         let emulated = new CustomEvent('onEventReceived', {
@@ -1001,7 +1001,6 @@ window.addEventListener('onEventReceived', function (obj) {
         }
         break;
       case "subscriberMessageYt":
-        console.log("ORENJI EVENT TYPE RECEIVED");
         detail = {
           listener: 'message',
           event: {
@@ -1150,8 +1149,6 @@ window.addEventListener('onEventReceived', function (obj) {
     let emulated = new CustomEvent('onEventReceived', {
       detail: detail
     });
-
-    console.log("ORENJI EMULATED", emulated);
 
     window.dispatchEvent(emulated);
 
