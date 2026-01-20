@@ -821,9 +821,9 @@ window.addEventListener('onEventReceived', function (obj) {
                 'user-id': '370315518',
                 'user-type': '',
               },
-              nick: "almosthirteen",
+              nick: userChannel,
               userId: '370315518',
-              displayName: "almosthirteen",
+              displayName: userChannel,
               displayColor: '#00FF99FF',
               badges: [
                 {
@@ -833,7 +833,7 @@ window.addEventListener('onEventReceived', function (obj) {
                   description: 'Subscriber',
                 },
               ],
-              channel: "almosthirteen",
+              channel: userChannel,
               text: "@almosthirteen From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!",
               isAction: false,
               emotes: [],
