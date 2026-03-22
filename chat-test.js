@@ -904,6 +904,54 @@ window.addEventListener('onEventReceived', function (obj) {
           }
         }
         break;
+      case "longMessageYt":
+        detail = {
+          listener: "message",
+          event: {
+            service: "youtube",
+            data: {
+              "kind": "youtube#liveChatMessage",
+              "etag": "FFyVMBdCnaFyluxPZjqEqsPq7wg",
+              "id": "LCC.EhwKGkNMTHRfczIzMUl3REZYSEx3Z1FkcUJVaERB",
+              "snippet": {
+                "type": "textMessageEvent",
+                "liveChatId": "KicKGFVDbExPdm5PNXNtSHNqeXZCZjBwdXAzQRILMEtIaUhXWURHcm8",
+                "authorChannelId": "UClLOvnO5smHsjyvBf0pup3A",
+                "publishedAt": "2025-04-13T06:59:23.930585+00:00",
+                "hasDisplayContent": true,
+                "displayMessage": "From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!",
+                "textMessageDetails": {
+                  "messageText": "From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!"
+                }
+              },
+              "authorDetails": {
+                "channelId": "UClLOvnO5smHsjyvBf0pup3A",
+                "channelUrl": "http://www.youtube.com/channel/UClLOvnO5smHsjyvBf0pup3A",
+                "displayName": "ChatWidget Testing",
+                "profileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
+                "isVerified": false,
+                "isChatOwner": true,
+                "isChatSponsor": false,
+                "isChatModerator": false
+              },
+              "msgId": "LCCEhwKGkNMTHRfczIzMUl3REZYSEx3Z1FkcUJVaERB",
+              "userId": "UClLOvnO5smHsjyvBf0pup3A",
+              "nick": "Streamer",
+              "badges": [],
+              "displayName": "Streamer",
+              "isAction": false,
+              "time": 1744527570705,
+              "tags": [],
+              "displayColor": null,
+              "channel": "UClLOvnO5smHsjyvBf0pup3A",
+              "text": "From a dreamy little realm painted in starlight and pastel skies, I floated into this world with a heart full of magic and wonder. My past is a gentle mystery, but my smile is real. Let’s explore this cozy adventure together, one sparkle at a time!",
+              "emotes": [],
+              "avatar": "https://yt3.ggpht.com/ytc/AIdro_nspOsTSamNj0y-PPtCxi_dLjrzu6MKDPux2Xcl3-cqoi3a3KTrnVdMRxc3I3eEbQVJnQ=s88-c-k-c0x00ffffff-no-rj",
+              "perm": "default"
+            }
+          }
+        }
+        break;
       case "userMessageYt":
         detail = {
           listener: "message",
