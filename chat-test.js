@@ -1207,9 +1207,9 @@ window.addEventListener('onEventReceived', function (obj) {
                 "authorChannelId": "UClLOvnO5smHsjyvBf0pup3A",
                 "publishedAt": "2025-04-13T06:59:23.930585+00:00",
                 "hasDisplayContent": true,
-                "displayMessage": ":_愛心紗::_生氣紗:",
+                "displayMessage": ":_KakchuSmug::_KakchuWave::_KakchuAYAYA::_KakchuPat::_KakchuCheer:",
                 "textMessageDetails": {
-                  "messageText": ":_愛心紗::_生氣紗:"
+                  "messageText": ":_KakchuSmug::_KakchuWave::_KakchuAYAYA::_KakchuPat::_KakchuCheer:"
                 }
               },
               "authorDetails": {
